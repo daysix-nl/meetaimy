@@ -1870,6 +1870,9 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+.hover\:opacity-80:hover {
+  opacity: 0.8;
+}
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -2423,6 +2426,10 @@ video {
 
   .md\:leading-\[55px\] {
     line-height: 55px;
+  }
+
+  .lg\:flex {
+    display: flex;
   }
 }
 @media (min-width: 1328px) {

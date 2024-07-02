@@ -42,12 +42,12 @@ $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
                 <?php if (get_field('tekst')): ?>   
                 <p class="text-16 leading-22 mt-2 mb-4 animation-hero text-[#121212] font-normal"><?php the_field('tekst');?></p>
                 <?php endif; ?>
-                <div class="flex space-x-2">
+                <div class="lg:flex space-x-2">
                     <?php if (get_field('button')): ?>   
                     <a id="#" class="text-14 leading-18 text-white font-bold h-5 rounded-full bg-green button-green px-[32px] flex hover-remove justify-center items-center w-fit animation-hero" href="<?php echo $link_url; ?>" target="<?php echo $link_target; ?>"><?php echo $link_text; ?></a>
                     <?php endif; ?>
                     <?php if (get_field('button2')): ?>   
-                    <a id="#" class="text-14 leading-18 text-[#00A0A0] font-bold h-5 rounded-full  px-[32px] flex justify-center items-center w-fit" href="<?php echo $link2_url; ?>" target="<?php echo $link2_target; ?>"><?php echo $link2_text; ?> 
+                    <a id="#" class="text-14 leading-18 text-[#00A0A0] font-bold h-5 rounded-full  px-[32px] flex justify-center items-center w-fit hover:opacity-80" href="<?php echo $link2_url; ?>" target="<?php echo $link2_target; ?>"><?php echo $link2_text; ?> 
                         <svg xmlns="http://www.w3.org/2000/svg" width="5.25" height="9.001" viewBox="0 0 5.25 9.001" class="ml-[10px]">
                             <path id="angle-right-solid_1_" data-name="angle-right-solid (1)" d="M68.955,67.9a.751.751,0,0,1,0,1.061l-3.749,3.749a.751.751,0,0,1-1.061-1.061l3.219-3.219-3.217-3.219a.751.751,0,0,1,1.061-1.061l3.749,3.749Z" transform="translate(-63.925 -63.925)" fill="#00a0a0"/>
                         </svg>
@@ -67,7 +67,18 @@ $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
             <?php if (get_field('tekst')): ?>   
             <p class="text-16 leading-22 mt-2 mb-3 text-center text-[#121212]"><?php the_field('tekst');?></p>
             <?php endif; ?>
-            <a id="#" class="text-14 leading-18 text-white font-bold h-5 rounded-full bg-green px-[32px] flex hover-remove justify-center items-center button-green w-fit mx-auto" href="<?php echo $link_url; ?>" target="<?php echo $link_target; ?>"><?php echo $link_text; ?></a>
+            <div class="lg:flex space-x-2">
+                <?php if (get_field('button')): ?>   
+                <a id="#" class="text-14 leading-18 text-white font-bold h-5 rounded-full bg-green button-green px-[32px] flex hover-remove justify-center items-center w-fit animation-hero" href="<?php echo $link_url; ?>" target="<?php echo $link_target; ?>"><?php echo $link_text; ?></a>
+                <?php endif; ?>
+                <?php if (get_field('button2')): ?>   
+                <a id="#" class="text-14 leading-18 text-[#00A0A0] font-bold h-5 rounded-full  px-[32px] flex justify-center items-center w-fit hover:opacity-80" href="<?php echo $link2_url; ?>" target="<?php echo $link2_target; ?>"><?php echo $link2_text; ?> 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="5.25" height="9.001" viewBox="0 0 5.25 9.001" class="ml-[10px]">
+                        <path id="angle-right-solid_1_" data-name="angle-right-solid (1)" d="M68.955,67.9a.751.751,0,0,1,0,1.061l-3.749,3.749a.751.751,0,0,1-1.061-1.061l3.219-3.219-3.217-3.219a.751.751,0,0,1,1.061-1.061l3.749,3.749Z" transform="translate(-63.925 -63.925)" fill="#00a0a0"/>
+                    </svg>
+                </a>
+                <?php endif; ?>
+            </div>
         </div>
     </div>
 </section>
