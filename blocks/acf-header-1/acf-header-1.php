@@ -9,6 +9,12 @@ $link_text = isset($link['title']) ? esc_html($link['title']) : '';
 $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
 ?>
 <?php
+$link2 = get_field('button2');
+$link2_url = isset($link2['url']) ? esc_url($link2['url']) : '';
+$link2_text = isset($link2['title']) ? esc_html($link2['title']) : '';
+$link2_target = isset($link2['target']) ? esc_attr($link2['target']) : '';
+?>
+<?php
 $image = get_field('afbeelding');
 $image_url = isset($image['url']) ? esc_url($image['url']) : '';
 $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
@@ -36,9 +42,14 @@ $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
                 <?php if (get_field('tekst')): ?>   
                 <p class="text-16 leading-22 mt-2 mb-4 animation-hero text-[#121212] font-normal"><?php the_field('tekst');?></p>
                 <?php endif; ?>
-                <?php if (get_field('button')): ?>   
-                <a id="#" class="text-14 leading-18 text-white font-bold h-5 rounded-full bg-green button-green px-[32px] flex hover-remove justify-center items-center w-fit animation-hero" href="<?php echo $link_url; ?>" target="<?php echo $link_target; ?>"><?php echo $link_text; ?></a>
-                <?php endif; ?>
+                <div class="flex space-x-2">
+                    <?php if (get_field('button')): ?>   
+                    <a id="#" class="text-14 leading-18 text-white font-bold h-5 rounded-full bg-green button-green px-[32px] flex hover-remove justify-center items-center w-fit animation-hero" href="<?php echo $link_url; ?>" target="<?php echo $link_target; ?>"><?php echo $link_text; ?></a>
+                    <?php endif; ?>
+                    <?php if (get_field('button2')): ?>   
+                    <a id="#" class="text-14 leading-18 text-green font-bold h-5 rounded-full border-green border-[1x] button-green px-[32px] flex hover-remove justify-center items-center w-fit animation-hero" href="<?php echo $link2_url; ?>" target="<?php echo $link2_target; ?>"><?php echo $link2_text; ?></a>
+                    <?php endif; ?>
+                </div>
             </div>
         </div>
     </div>
