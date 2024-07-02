@@ -1,0 +1,683 @@
+{
+    "key": "group_64d9d0f099688",
+    "title": "prijzen",
+    "fields": [
+        {
+            "key": "field_64d9daedafcd8",
+            "label": "Tekst voor dropdown",
+            "name": "tekst_voor_dropdown",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Mijn salon heeft",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64d9db2aafcd9",
+            "label": "Tekst achter dropdown",
+            "name": "tekst_achter_dropdown",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "medewerkers",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64d9dba6d81d2",
+            "label": "Meer dan 15 tekst",
+            "name": "meer_dan_15_tekst",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Voor grotere salons leveren we graag maatwerk. Graag gaan we met je in gesprek over een passende samenwerking.",
+            "maxlength": "",
+            "rows": 4,
+            "placeholder": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_64d9dbd812565",
+            "label": "Button",
+            "name": "button",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_64d9d0f0116a0",
+            "label": "Starter",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_64d9d19e04711",
+            "label": "Titel",
+            "name": "starter_titel",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Aimy Starter",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64d9d1efdbd0b",
+            "label": "Subtitel",
+            "name": "starter_subtitel",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Lorem ipsum",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64d9d2803011e",
+            "label": "Prijs: 1 tot 3",
+            "name": "starter_prijs_1_tot_3",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "50,00",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "€",
+            "append": ""
+        },
+        {
+            "key": "field_64d9d3247495a",
+            "label": "Prijs: 3 tot 5",
+            "name": "starter_prijs_3_tot_5",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "60,00",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "€",
+            "append": ""
+        },
+        {
+            "key": "field_64d9d33a7495b",
+            "label": "Prijs: 5 tot 15",
+            "name": "starter_prijs_5_tot_15",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "70,00",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "€",
+            "append": ""
+        },
+        {
+            "key": "field_64d9d3d8f67ac",
+            "label": "Prijs informatie: 1 tot 3",
+            "name": "starter_prijs_informatie",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "\/ maand (excl. btw)\r\n+ €0,31 per betaling",
+            "maxlength": "",
+            "rows": 2,
+            "placeholder": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_64e31ac8077d5",
+            "label": "Prijs informatie: 3 tot 5",
+            "name": "starter_prijs_informatie_2",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "\/ maand (excl. btw)\r\n+ €0,31 per betaling",
+            "maxlength": "",
+            "rows": 2,
+            "placeholder": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_64e31aeb077d6",
+            "label": "Prijs informatie: 5 tot 15",
+            "name": "starter_prijs_informatie_3",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "\/ maand (excl. btw)\r\n+ €0,31 per betaling",
+            "maxlength": "",
+            "rows": 2,
+            "placeholder": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_64d9d4516a641",
+            "label": "Button",
+            "name": "starter_button",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_64d9d10d116a1",
+            "label": "Pro",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_64d9d1c104712",
+            "label": "Titel",
+            "name": "pro_titel",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Aimy Pro",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64d9d203dbd0c",
+            "label": "Subtitel",
+            "name": "pro_subtitel",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Lorem ipsum",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64d9d905633db",
+            "label": "Prijs: 1 tot 3",
+            "name": "pro_prijs_1_tot_3",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "50,00",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "€",
+            "append": ""
+        },
+        {
+            "key": "field_64d9d947633dd",
+            "label": "Prijs: 3 tot 5",
+            "name": "pro_prijs_3_tot_5",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "60,00",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "€",
+            "append": ""
+        },
+        {
+            "key": "field_64d9d957633de",
+            "label": "Prijs: 5 tot 15",
+            "name": "pro_prijs_5_tot_15",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "70,00",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "€",
+            "append": ""
+        },
+        {
+            "key": "field_64d9d996633e1",
+            "label": "Prijs informatie: 1 tot 3",
+            "name": "pro_prijs_informatie",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "\/ maand (excl. btw)\r\n+ €0,31 per betaling",
+            "maxlength": "",
+            "rows": 2,
+            "placeholder": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_64e31b1e883fd",
+            "label": "Prijs informatie: 3 tot 5",
+            "name": "pro_prijs_informatie_2",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "\/ maand (excl. btw)\r\n+ €0,31 per betaling",
+            "maxlength": "",
+            "rows": 2,
+            "placeholder": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_64e31b4a883fe",
+            "label": "Prijs informatie: 5 tot 15",
+            "name": "pro_prijs_informatie_3",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "\/ maand (excl. btw)\r\n+ €0,31 per betaling",
+            "maxlength": "",
+            "rows": 2,
+            "placeholder": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_64d9d9b9633e3",
+            "label": "Button",
+            "name": "pro_button",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_64d9d122116a3",
+            "label": "All-in",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_64d9d1d104713",
+            "label": "Titel",
+            "name": "allin_titel",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Aimy All-in",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64d9d220dbd0d",
+            "label": "Subtitel",
+            "name": "allin_subtitel",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Lorem ipsum",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64d9d92e633dc",
+            "label": "Prijs: 1 tot 3",
+            "name": "allin_prijs_1_tot_3",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "50,00",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "€",
+            "append": ""
+        },
+        {
+            "key": "field_64d9d972633df",
+            "label": "Prijs: 3 tot 5",
+            "name": "allin_prijs_3_tot_5",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "60,00",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "€",
+            "append": ""
+        },
+        {
+            "key": "field_64d9d981633e0",
+            "label": "Prijs: 5 tot 15",
+            "name": "allin_prijs_5_tot_15",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "70,00",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "€",
+            "append": ""
+        },
+        {
+            "key": "field_64d9d9a4633e2",
+            "label": "Prijs informatie: 1 tot 3",
+            "name": "allin_prijs_informatie",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "\/ maand (excl. btw)\r\n+ €0,31 per betaling",
+            "maxlength": "",
+            "rows": 2,
+            "placeholder": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_64e31bf498b46",
+            "label": "Prijs informatie: 3 tot 5",
+            "name": "allin_prijs_informatie_2",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "\/ maand (excl. btw)\r\n+ €0,31 per betaling",
+            "maxlength": "",
+            "rows": 2,
+            "placeholder": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_64e31c0498b47",
+            "label": "Prijs informatie: 5 tot 15",
+            "name": "allin_prijs_informatie_3",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "\/ maand (excl. btw)\r\n+ €0,31 per betaling",
+            "maxlength": "",
+            "rows": 2,
+            "placeholder": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_64d9d9c4633e4",
+            "label": "Button",
+            "name": "allin_button",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/acf-prijzen"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1692605471
+}

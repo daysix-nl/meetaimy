@@ -1,0 +1,20 @@
+.bg-svg {
+  background: linear-gradient(0deg,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(255, 255, 255, 0) 50%);
+}
+
+// .bg-golf {
+//   background: linear-gradient(
+//     360deg,
+//     rgba(231, 231, 238, 0.65) 35.3%,
+//     rgba(217, 217, 217, 0) 80.74%
+//   );
+//   transform: matrix(1, 0, 0, -1, 0, 0);
+// }
+
+
+.bg-half {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 30%, #efeff3 30%);
+}

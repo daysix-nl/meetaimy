@@ -1,0 +1,27 @@
+{
+  "name": "acf-counter",
+  "title": "Counter",
+  "description": "",
+  "category": "secties",
+  "icon": "editor-ol-rtl",
+  "keywords": [
+    "block"
+  ],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "acf-counter.php"
+  },
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "preview_image_help": "/wp-content/themes/doove-theme/img/preview-images/#.jpeg",
+        "is_preview": true
+      }
+    }
+  }
+}

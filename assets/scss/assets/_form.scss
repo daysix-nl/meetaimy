@@ -1,0 +1,159 @@
+.contact {
+    .gform_heading {
+        display: none !important;
+    }
+
+    form {
+
+        input,
+        textarea {
+            border: 1px solid #B7B8CD !important;
+            color: #B7B8CD !important;
+            padding: 10px, 12px, 10px, 12px !important;
+            border-radius: 4px !important;
+            font-size: 16px !important;
+            line-height: 22px !important;
+            font-family: "Montserrat", sans-serif !important;
+
+            &:focus-visible {
+                outline: #00a0a0 auto 1px !important;
+            }
+        }
+
+    }
+
+    .gform_wrapper.gravity-theme .gform_fields {
+        grid-row-gap: 12px !important;
+    }
+
+    .gform_wrapper.gravity-theme .gfield textarea.small {
+        height: 122px !important;
+    }
+
+    .gform_wrapper.gravity-theme .gform_footer,
+    .gform_wrapper.gravity-theme .gform_page_footer {
+        margin: 0px 0 0 !important;
+        padding: 0px 0 !important;
+    }
+
+    .gform_button {
+        transition: .3s !important;
+        line-height: 18px !important;
+        font-weight: 700 !important;
+        font-size: 14px !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        background: #00A0A0 !important;
+        border-radius: 9999px !important;
+        height: 50px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        color: #fff !important;
+        width: 100% !important;
+        cursor: pointer !important;
+
+        &:hover {
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, .25) !important;
+            transition: .3s !important;
+        }
+    }
+
+    .gform_wrapper.gravity-theme .gform_footer button,
+    .gform_wrapper.gravity-theme .gform_footer input,
+    .gform_wrapper.gravity-theme .gform_page_footer button,
+    .gform_wrapper.gravity-theme .gform_page_footer input {
+        margin-bottom: 0px !important;
+        margin-top: 12px !important;
+    }
+
+
+}
+
+
+.gfb-cal-container h3 {
+    border-top-left-radius: 16px !important;
+    border-top-right-radius: 16px !important;
+    border-radius: 16px 16px 0px 0px !important;
+}
+
+.gform_wrapper.gravity-theme .gform_validation_errors {
+    display: none !important;
+}
+
+.hidden_label {
+    position: relative !important;
+    width: 100% !important;
+}
+
+.validation_message {
+    position: absolute !important;
+    top: -8px !important;
+    height: 10px !important;
+    right: 10px !important;
+    background: #fff !important;
+    border: 0px solid #c02b0a !important;
+    font-size: 10px !important;
+    margin-top: 0px !important;
+    padding: 0px !important;
+    width: fit-content !important;
+    text-align: right !important;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+
+}
+
+.gform-body label {
+    display: none !important;
+}
+
+.gfb-cal-container {
+    margin: 0px !important;
+}
+
+.gfb-tooltip-text {
+    display: none !important;
+}
+
+.gfb-cal-container {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    span,
+    div,
+    input,
+    textarea,
+    label,
+    button {
+        font-family: "Montserrat", sans-serif !important;
+    }
+
+    h3 {
+        font-weight: 700 !important;
+    }
+
+    .gfb-timezone {
+        display: none !important;
+    }
+}
+
+#gfb-timeslots-table-container-tr ul.gfb-slot-list li {
+    width: 50% !important;
+}
+
+.gfb-cal-container {
+    max-height: unset !important;
+}
+
+.gfb-cal-table {
+    max-height: unset !important;
+}
+
+#gfb-gcal-connect {
+    display: none !important;
+}

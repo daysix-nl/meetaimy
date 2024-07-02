@@ -1,0 +1,27 @@
+{
+  "name": "acf-swoosh-3",
+  "title": "Swoosh 3",
+  "description": "Voor de footer",
+  "category": "secties",
+  "icon": "tide",
+  "keywords": [
+    "block"
+  ],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "acf-swoosh-3.php"
+  },
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "preview_image_help": "/wp-content/themes/doove-theme/img/preview-images/#.jpeg",
+        "is_preview": true
+      }
+    }
+  }
+}

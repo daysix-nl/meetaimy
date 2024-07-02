@@ -1,0 +1,117 @@
+.swiper-pagination-progressbar {
+  top: unset !important;
+  bottom: 20px;
+  width: 50% !important;
+  left: 50%;
+  background-color: #f9f9f9;
+  transform: translate(-50%, 0);
+}
+
+.swiper-pagination-horizontal {
+  left: 50% !important;
+  transform: translate(-50%, 0);
+}
+
+.swiper-pagination-bullets {
+  top: unset !important;
+  bottom: 0px !important;
+  display: flex;
+  flex-direction: row;
+  width: 50% !important;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 18px;
+}
+
+.swiper-pagination-progressbar-fill {
+  background-color: #e9e9e9 !important;
+}
+
+.swiper-pagination-bullet {
+  display: flex;
+  background-color: unset !important;
+  width: auto !important;
+}
+
+.swiper-mobile {
+  .swiper-button-next {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 70px;
+    p {
+      text-align: end;
+    }
+  }
+  .swiper-button-prev {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 70px;
+    p {
+      text-align: start;
+    }
+  }
+}
+
+.swiper-pagination_simple {
+  margin-left: auto;
+  bottom: 0 !important;
+  position: absolute;
+}
+
+.mySwiper-functionaliteit,
+.mySwiper-overons,
+.mySwiper-klantencase {
+  padding-bottom: 30px;
+  // @media (min-width: 1328px) {
+  //   overflow: hidden;
+  // }
+  .swiper-slide {
+    padding: 0 7px !important;
+    height: auto !important;
+  }
+  .swiper-pagination {
+    bottom: 0 !important;
+    justify-content: center !important;
+
+    &.swiper-pagination-bullets {
+      top: unset !important;
+      bottom: 0px !important;
+      display: flex;
+      flex-direction: row;
+      width: 100% !important;
+      display: flex;
+      justify-content: unset;
+      font-weight: 700;
+      font-size: 10px;
+      line-height: 18px;
+    }
+
+    .swiper-pagination-progressbar-fill {
+      background-color: #101357 !important;
+    }
+
+    .swiper-pagination-bullet {
+      display: flex;
+      background-color: #101357 !important;
+      width: 6px !important;
+      height: 6px !important;
+
+      &.swiper-pagination-bullet-active {
+        background-color: #101357 !important;
+        width: 6px !important;
+        height: 6px !important;
+      }
+
+      // media query
+      @media (min-width: 1328px) {
+        display: none !important;
+      }
+    }
+  }
+}

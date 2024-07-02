@@ -1,0 +1,27 @@
+{
+  "name": "acf-foto-blok-2",
+  "title": "Foto blok 2",
+  "description": "",
+  "category": "secties",
+  "icon": "format-image",
+  "keywords": [
+    "block"
+  ],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "acf-foto-blok-2.php"
+  },
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "preview_image_help": "/wp-content/themes/doove-theme/img/preview-images/#.jpeg",
+        "is_preview": true
+      }
+    }
+  }
+}

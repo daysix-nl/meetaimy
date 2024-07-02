@@ -1,0 +1,27 @@
+{
+  "name": "acf-klanten-logos",
+  "title": "Klanten logo's",
+  "description": "",
+  "category": "secties",
+  "icon": "superhero-alt",
+  "keywords": [
+    "block"
+  ],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "acf-klanten-logos.php"
+  },
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "preview_image_help": "/wp-content/themes/doove-theme/img/preview-images/#.jpeg",
+        "is_preview": true
+      }
+    }
+  }
+}
