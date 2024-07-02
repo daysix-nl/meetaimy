@@ -48,7 +48,7 @@ $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
                     <?php endif; ?>
                     <?php if (get_field('button2')): ?>   
                     <a id="#" class="text-14 leading-18 text-[#00A0A0] font-bold h-5 rounded-full  px-[32px] flex justify-center items-center w-fit" href="<?php echo $link2_url; ?>" target="<?php echo $link2_target; ?>"><?php echo $link2_text; ?> 
-                        <svg xmlns="http://www.w3.org/2000/svg" width="5.25" height="9.001" viewBox="0 0 5.25 9.001" class="ml-[8px]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="5.25" height="9.001" viewBox="0 0 5.25 9.001" class="ml-[10px]">
                             <path id="angle-right-solid_1_" data-name="angle-right-solid (1)" d="M68.955,67.9a.751.751,0,0,1,0,1.061l-3.749,3.749a.751.751,0,0,1-1.061-1.061l3.219-3.219-3.217-3.219a.751.751,0,0,1,1.061-1.061l3.749,3.749Z" transform="translate(-63.925 -63.925)" fill="#00a0a0"/>
                         </svg>
                     </a>
