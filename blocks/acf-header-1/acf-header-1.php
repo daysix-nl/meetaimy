@@ -67,7 +67,7 @@ $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
             <?php if (get_field('tekst')): ?>   
             <p class="text-16 leading-22 mt-2 mb-3 text-center text-[#121212]"><?php the_field('tekst');?></p>
             <?php endif; ?>
-            <div class="lg:flex space-x-2">
+            <div class="lg:flex space-x-2 w-fit mx-auto">
                 <?php if (get_field('button')): ?>   
                 <a id="#" class="text-14 leading-18 text-white font-bold h-5 rounded-full bg-green button-green px-[32px] flex hover-remove justify-center items-center w-fit animation-hero" href="<?php echo $link_url; ?>" target="<?php echo $link_target; ?>"><?php echo $link_text; ?></a>
                 <?php endif; ?>
