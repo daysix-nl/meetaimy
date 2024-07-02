@@ -47,7 +47,7 @@ $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
                     <a id="#" class="text-14 leading-18 text-white font-bold h-5 rounded-full bg-green button-green px-[32px] flex hover-remove justify-center items-center w-fit animation-hero" href="<?php echo $link_url; ?>" target="<?php echo $link_target; ?>"><?php echo $link_text; ?></a>
                     <?php endif; ?>
                     <?php if (get_field('button2')): ?>   
-                    <a id="#" class="text-14 leading-18 text-green font-bold h-5 rounded-full border-green border-[1x] button-green px-[32px] flex hover-remove justify-center items-center w-fit animation-hero" href="<?php echo $link2_url; ?>" target="<?php echo $link2_target; ?>"><?php echo $link2_text; ?></a>
+                    <a id="#" class="text-14 leading-18 text-green font-bold h-5 rounded-full border-green border-[1x]  px-[32px] flex justify-center items-center w-fit" href="<?php echo $link2_url; ?>" target="<?php echo $link2_target; ?>"><?php echo $link2_text; ?></a>
                     <?php endif; ?>
                 </div>
             </div>
